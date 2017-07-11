@@ -4,7 +4,7 @@
   - HTML 코드 <> 안에 있는 문자를 요소라 한다.
   - < > 괄호는 태그
 - 열기 태그에는 속성이 있으며, 속성은 요소의 콘텐츠에 대한 설명을 제공한다.
-  - <p lang="en-us"> Paragraph in English</p>
-  - 속성은 이름과 값이 필요하다. 
+  - `<p lang="en-us"> Paragraph in English</p>`
+  - 속성은 이름과 값이 필요하다.
   - lang 은 속성이름 "en-us"는 속성 값
-- <head>안에 <title>
+- `<head>`안에 `<title>`
