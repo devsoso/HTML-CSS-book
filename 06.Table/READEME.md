@@ -1,10 +1,10 @@
 # 테이블
 ### 테이블 구조
-`<table>`:테이블 생성
-`<tr>`:table row
-`<td>`:table data 테이블의 각 셀
-`<th>`:table heading 행이나 열의 머리말
-      th 요소에 scope속성을 사용해 머리말의 행/열을 정함
+- `<table>`:테이블 생성
+- `<tr>`:table row
+- `<td>`:table data 테이블의 각 셀
+- `<th>`:table heading 행이나 열의 머리말 <br /> th 요소에 scope속성을 사용해 머리말의 행/열을 정함
+
   <table>
     <tr>
       <td>15</td>
@@ -29,7 +29,8 @@
       <td>60</td>
       <td>35</td>
     </tr>
-</table> ```
+</table>
+```
 
 <table>
   <tr>
@@ -70,7 +71,7 @@
 ```
 
 ### 병합
-<th> 또는 <td> 요소에 colspan 속성을 사용
+`<th>` 또는 `<td>` 요소에 colspan 속성을 사용
 
 ```
 <table>
