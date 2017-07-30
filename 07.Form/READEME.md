@@ -114,7 +114,7 @@ for 속성의 값은 레이블을 붙일 폼 컨트롤의 id속성 값과 일치
 id 속성의 값은 페이지에 있는 여러 요소 가운데 해당 요소를 고유하게 식별하는데 사용
 
 ### `<fieldset>` / `<legend>`
-
+```
 <fieldset>
   <legend>신상정보</legend>
 <label> 나이 : <input type="text" name="age" /></label> <br />
@@ -122,7 +122,7 @@ id 속성의 값은 페이지에 있는 여러 요소 가운데 해당 요소를
 <input id="female" type="radio" name="gender" value="f"><label for="female">여성</label>
 <input id="male" type="radio" name="gender" value="m"><label for="male">남성</label>
 </fieldset>
-
+```
 ### 폼유효성검증 :빈칸을 넘기지 않음
 required="required"
 
