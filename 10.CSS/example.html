@@ -2,14 +2,34 @@
 <html>
   <head>
     <title>CSS 이해</title>
-    <link href="css/example.css" type="text/css" rel="stylesheet">
+    <!-- <link href="css/example.css" type="text/css" rel="stylesheet"> -->
+    <style media="screen">
+      /*body{
+        font-family: arial, verdana, sans-serif;
+        color: #665544;
+        padding: 10px;
+      }
+      .page{
+        border:1px solid #665544;
+        background-color: #efefef;
+        padding:inherit;
+      }*/
+      p[attr^="d"] {
+        color: red;
+      }
+    </style>
   </head>
   <body>
-    <h1>정원에서 음식으로</h1>
-    <p><i>포타지에(potager)</i>는 장식 야채나 부엌 정원을 의미하는 프랑스어다.
-      종종 정원을 더 아름답게 꾸미기 위해 식물과 함께 꽃(식용과 비 식용)과 허브를 심는다.
-    목표는 미적으로 미적 음식을 제공하는 기능을 만드는 것이다.</p>
-    <h2>What to Plant</h2>
-    <p>식물의 색상과 형태를 통해 해당 기능에 대해 다양한 선택을 한다. 많은 식물은 위로 자라도록 한다.</p>
+    <p class="dog">awefwef</p>
+    <div class="page dog">
+      <h1>감자(Potato)</h1>
+      <p>감자튀김 먹고싶다</p>
+      <p>감자감자 감자 감자</p>
+    </div>
+    <div class="page">
+      <h1>감자(Potato)</h1>
+      <p>감자튀김 먹고싶다</p>
+      <p>감자감자 감자 감자</p>
+    </div>
   </body>
 </html>
