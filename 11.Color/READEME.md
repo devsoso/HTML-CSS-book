@@ -2,30 +2,30 @@
 /*rgb값*/ <br />
 p {
   color: rgb(100,100,90) ;
-}
-/*헥사코드*/
+}<br />
+/*헥사코드*/ <br />
 h2 {
   color: #ee3380 ;
-}
-/*색상명*/
+}<br />
+/*색상명*/ <br />
 h1{
   color: DarkCyan ;
 }
 
 # 배경색
-- 텍스트 색상처럼 rgb/헥사/색상명을 이용
+- 텍스트 색상처럼 rgb/헥사/색상명을 이용<br />
 body {
   background-color:  rgb(200,200,200);
 }
 
 # 투명도
-## opacity: 0.0 ~ 1.0 사이 값/ ex 0.5는 투명도 50%
+- opacity: 0.0 ~ 1.0 사이 값/ ex 0.5는 투명도 50% <br />
 p.one{
   background-color: rgb(0,0,0);
   opacity: 0.5;
 }
 
-## rgba(rgb값+alpha): 0.0 ~ 1.0 사이 값
+- rgba(rgb값+alpha): 0.0 ~ 1.0 사이 값 <br />
 p.two{
   background-color: rgb(0,0,0);
   background-color: rgba(0,0,0,0.5);
