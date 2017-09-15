@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, Verdana, sans-serif;
+  color: #111111;
+}
+table {
+  width: 600px;
+  empty-cells: hide;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 7px 10px 10px 10px;
+}
+th {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 90%;
+  border-bottom: 2px solid #111111;
+  border-top: 1px solid #999;
+  text-align: left;
+}
+tr.even {
+  background-color: #efefef;
+}
+tr:hover {
+  background-color: red;
+}
+tr:active {
+  background-color: black;
+}
+.money {
+  text-align: right;
+}
+div {
+  border-bottom: 1px solid #efefef;
+  margin: 10px;
+  padding-bottom: 10px;
+  width: 260px;
+}
+.title {
+  float: left;
+  width: 100px;
+  text-align: right;
+  padding-right: 10px;
+}
+.radio-buttons label {
+  float: none;
+}
+.submit {
+  text-align: right;
+}

@@ -1,0 +1,76 @@
+<html>
+  <head>
+    <title>List, Table, Form</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+
+    <table>
+      <thead>
+        <tr>
+          <th>author</th>
+          <th>title</th>
+          <th>price</th>
+          <th>price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>송윤섭</td>
+          <td>책1</td>
+          <td class="money">1000</td>
+          <td class="money">1234</td>
+        </tr>
+        <tr class="even">
+          <td>백소정</td>
+          <td>책2</td>
+          <td>10100</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>송윤섭</td>
+          <td>책3</td>
+          <td>101300</td>
+          <td>1214</td>
+        </tr>
+        <tr class="even">
+          <td>백소정</td>
+          <td>책4</td>
+          <td>10100</td>
+          <td>12324</td>
+        </tr>
+      </tbody>
+    </table>
+    <form action="#">
+        <fieldset>
+          <legend>
+            뉴스레터
+          </legend>
+          <input type="text" id="email">
+          <input type="text" id="twitter">
+
+        </fieldset>
+
+    </form>
+    <form action="#">
+      <div>
+        <label for="name" class="title">이름</label>
+        <input type="text" id="name" name="name">
+      </div>
+      <div>
+        <label for="email" class="title">이메일</label>
+        <input type="email" id="email" name="email">
+      </div>
+      <div class="radio-buttons">
+        <span class="title">성별</span>
+        <input type="radio" name="gender" id="male">
+        <label for="male">남</label>
+        <input type="radio" name="gender" id="female">
+        <label for="female">여</label><br>
+      </div>
+      <div class="submit">
+        <input type="submit" value="등록">
+      </div>
+    </form>
+  </body>
+</html>
