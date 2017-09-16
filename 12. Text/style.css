@@ -1,0 +1,15 @@
+tr {
+  height: 50px;
+}
+.one{
+  vertical-align: baseline;
+}
+.two{
+  vertical-align: bottom;
+}
+.three{
+  vertical-align: text-bottom;
+}
+.four{
+  vertical-align: super;
+}
